@@ -1,0 +1,44 @@
+.main-container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+.item {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+p {
+    margin: 0;
+}
+
+.item-title {
+    padding: 8px 0;
+    text-align: center;
+    background: aquamarine;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.item-content {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.flex-item {
+    width: 25%;
+}
